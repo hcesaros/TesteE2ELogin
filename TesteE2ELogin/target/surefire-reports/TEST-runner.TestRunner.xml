@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="35.441" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/test-classes:/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/classes:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/henrique_cesar/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/henrique_cesar/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/henrique_cesar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/henrique_cesar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/henrique_cesar/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/henrique_cesar/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/henrique_cesar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/henrique_cesar/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/henrique_cesar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/henrique_cesar/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/henrique_cesar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/henrique_cesar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/henrique_cesar/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/Users/henrique_cesar/Library/Java/JavaVirtualMachines/corretto-11.0.24/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/surefire/surefirebooter-20250506110136254_3.jar /Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/surefire 2025-05-06T11-01-35_607-jvmRun1 surefire-20250506110136254_1tmp surefire_0-20250506110136254_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/test-classes:/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/classes:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/henrique_cesar/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/henrique_cesar/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/henrique_cesar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/henrique_cesar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/henrique_cesar/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/henrique_cesar/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/henrique_cesar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/henrique_cesar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/henrique_cesar/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/henrique_cesar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/henrique_cesar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/henrique_cesar/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar:/Users/henrique_cesar/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/henrique_cesar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/henrique_cesar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/henrique_cesar/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/henrique_cesar"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/Users/henrique_cesar/Library/Java/JavaVirtualMachines/corretto-11.0.24/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E/target/surefire/surefirebooter-20250506110136254_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.24+8-LTS"/>
+    <property name="user.name" value="henrique_cesar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.24.8.1"/>
+    <property name="localRepository" value="/Users/henrique_cesar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/vd/yqjg96jj7jq85yf6qgkn9t640000gn/T/"/>
+    <property name="java.version" value="11.0.24"/>
+    <property name="user.dir" value="/Users/henrique_cesar/Downloads/DesafioOutsera/TesteE2E"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/henrique_cesar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.24+8-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login com credenciais válidas&quot;, &quot;Login e navegação no OrangeHRM&quot;](1)" classname="runner.TestRunner" time="7.728">
+    <system-out><![CDATA[
+Cenario: Login com credenciais válidas                        # src/test/resources/features/login.feature:11
+  Dado que o usuário está na página de login do OrangeHRM     # steps.LoginSteps.acessarPaginaLogin()
+  Quando ele faz login com usuário "Admin" e senha "admin123" # steps.LoginSteps.fazerLogin(java.lang.String,java.lang.String)
+  Entao ele deve visualizar o Dashboard                       # steps.LoginSteps.validarDashboard()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+mai 06, 2025 11:01:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai 06, 2025 11:01:39 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login com usuário inválido&quot;, &quot;Login e navegação no OrangeHRM&quot;](2)" classname="runner.TestRunner" time="5.909">
+    <system-out><![CDATA[
+Cenario: Login com usuário inválido                              # src/test/resources/features/login.feature:15
+  Dado que o usuário está na página de login do OrangeHRM        # steps.LoginSteps.acessarPaginaLogin()
+  Quando ele faz login com usuário "invalido" e senha "admin123" # steps.LoginSteps.fazerLogin(java.lang.String,java.lang.String)
+  Entao uma mensagem de erro de credenciais deve ser exibida     # steps.LoginSteps.validarErroCredenciais()
+]]></system-out>
+    <system-err><![CDATA[mai 06, 2025 11:01:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai 06, 2025 11:01:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login com senha inválida&quot;, &quot;Login e navegação no OrangeHRM&quot;](3)" classname="runner.TestRunner" time="5.971">
+    <system-out><![CDATA[
+Cenario: Login com senha inválida                            # src/test/resources/features/login.feature:19
+  Dado que o usuário está na página de login do OrangeHRM    # steps.LoginSteps.acessarPaginaLogin()
+  Quando ele faz login com usuário "Admin" e senha "errada"  # steps.LoginSteps.fazerLogin(java.lang.String,java.lang.String)
+  Entao uma mensagem de erro de credenciais deve ser exibida # steps.LoginSteps.validarErroCredenciais()
+]]></system-out>
+    <system-err><![CDATA[mai 06, 2025 11:01:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai 06, 2025 11:01:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login com campos vazios&quot;, &quot;Login e navegação no OrangeHRM&quot;](4)" classname="runner.TestRunner" time="4.724">
+    <system-out><![CDATA[
+Cenario: Login com campos vazios                                     # src/test/resources/features/login.feature:23
+  Dado que o usuário está na página de login do OrangeHRM            # steps.LoginSteps.acessarPaginaLogin()
+  Quando ele tenta fazer login sem preencher os campos               # steps.LoginSteps.loginComCamposVazios()
+  Entao uma mensagem de erro de campos obrigatórios deve ser exibida # steps.LoginSteps.validarErroCamposObrigatorios()
+]]></system-out>
+    <system-err><![CDATA[mai 06, 2025 11:01:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai 06, 2025 11:01:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navegar até Add Employee após login&quot;, &quot;Login e navegação no OrangeHRM&quot;](5)" classname="runner.TestRunner" time="8.452">
+    <system-out><![CDATA[
+Cenario: Navegar até Add Employee após login                     # src/test/resources/features/login.feature:27
+  Dado que o usuário está na página de login do OrangeHRM        # steps.LoginSteps.acessarPaginaLogin()
+  Quando ele faz login com usuário "Admin" e senha "admin123"    # steps.LoginSteps.fazerLogin(java.lang.String,java.lang.String)
+  E ele navega até o menu PIM e seleciona Add Employee           # steps.LoginSteps.navegarParaAddEmployee()
+  Entao o formulário de cadastro de funcionário deve ser exibido # steps.LoginSteps.validarFormularioFuncionario()
+]]></system-out>
+    <system-err><![CDATA[mai 06, 2025 11:02:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai 06, 2025 11:02:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
