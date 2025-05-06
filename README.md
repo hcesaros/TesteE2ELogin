@@ -24,13 +24,21 @@ Utiliza o ambiente de demonstração oficial do OrangeHRM:
 ## 🧱 Estrutura do Projeto
 
 src
+
 ├── test
+
 │ ├── java
+
 │ │ ├── pages (Page Objects)
+
 │ │ ├── runner (RunnerTest)
+
 │ │ ├── steps (Step Definitions)
+
 │ │ └── support (Drive e utilitarios)
+
 │ └── resources
+
 │ └── features (Cenários .feature em Gherkin)
 
 
@@ -47,6 +55,7 @@ src
 
 # 1. Clone o projeto
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
 cd nome-do-repositorio
 
 # 2. Execute os testes
@@ -55,13 +64,16 @@ mvn test
 Exemplo de comando para abrir relatório HTML
 
 Após execução, abra o relatório gerado em:
+
 target/relatorios-cucumber.html
 
 ### 🧪 Exemplo de cenário (Gherkin)
 
 Cenário: Login com credenciais válidas
   Dado que o usuário está na página de login do OrangeHRM
+  
   Quando ele faz login com o usuário "Admin" e a senha "admin123"
+  
   Então ele deve visualizar o painel principal
 
 ### 📸 Page Objects utilizados
